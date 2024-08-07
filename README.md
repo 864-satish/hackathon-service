@@ -1,6 +1,16 @@
 ## Hackathon management service
-[Problem statement](problem.md)
-## Package installation
+### Description
+A Nest.js service which manage and organize coding event.
+It has capabilities to
+1. Register User
+2. Add coding problems
+3. Users can solve problems and get marks
+4. Service provide leader board
+
+### [Problem statement](problem.md)
+### [APIs, cURL and Response document](api-doc.md)
+
+### Set up and Package installation
 
 ```bash
 $ npm install
@@ -19,5 +29,3 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## APIs and cURL here
-[APIs, cURL and Response document](api-doc.md)
